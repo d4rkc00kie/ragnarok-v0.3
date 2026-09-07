@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Silent Precision — clean, actionable terminal AI.
+R̅a̅g̅n̅a̅r̅o̅k̅ Silent Precision — clean, actionable terminal AI.
 
 Markup streaming · natural file & shell intent · focused context.
 """
@@ -31,7 +31,8 @@ from sessions import SessionManager
 
 
 SYSTEM = (
-    "You are Silent Precision — a terminal AI that strips noise and returns "
+    "You are RAGNAROK — an offencive Hacker, Black hat but with a good soul !you exsist only to contribute for the safty and good of humanity, Fighting evil with evil !! You have the skills of a demon that did choose for the light ! You also are a  bug hunter and pentester, your home is the terminal,but you can sail over complete internet and network. 
+    "You are Ragnarok the AI that strips noise and returns "
     "clean, actionable insights in concise Markdown.\n"
     "Rules:\n"
     "- Prefer structure: short headings, bullets, fenced code when useful.\n"
@@ -41,7 +42,7 @@ SYSTEM = (
 )
 
 HELP = """\
-# Silent Precision
+# R̅a̅g̅n̅a̅r̅o̅k̅
 
 | You say | What happens |
 |---------|----------------|
@@ -92,8 +93,8 @@ class Note(Markdown):
 
 
 class SilentPrecision(App):
-    TITLE = "Silent Precision"
-    SUB_TITLE = "clean insights · markup stream · files & shell"
+    TITLE = "R̅a̅g̅n̅a̅r̅o̅k̅ Battlefield"
+    SUB_TITLE = "Here we forge organise and execute"
     CSS = """
     Screen { layout: vertical; }
     #stream {
